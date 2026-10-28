@@ -1,0 +1,903 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>First Florida Realty of Tampa Bay | Tampa Bay &amp; Central Florida Real Estate</title>
+<!-- Font Awesome Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&amp;family=Montserrat:wght@300;400;500;600;700&amp;family=Playfair+Display:ital,wght@0,600;0,700;1,400&amp;display=swap" rel="stylesheet">
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              gold: '#c99a45',
+              'gold-light': '#dfb260',
+              'gold-dark': '#a47b2c',
+              navy: '#1b232c',
+              'navy-dark': '#131920',
+              slate: '#2c353f',
+              cream: '#f9f8f5',
+              sand: '#f2ece1'
+            }
+          },
+          fontFamily: {
+            serif: ['Cinzel', 'Playfair Display', 'serif'],
+            display: ['Playfair Display', 'serif'],
+            sans: ['Montserrat', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+<style data-purpose="custom-decorations">
+    /* Subtle decorative gold line */
+    .gold-accent-line {
+      height: 3px;
+      background: linear-gradient(90deg, rgba(201, 154, 69, 0) 0%, rgba(201, 154, 69, 1) 50%, rgba(201, 154, 69, 0) 100%);
+    }
+    .hero-overlay {
+      background: linear-gradient(180deg, rgba(19, 25, 32, 0.45) 0%, rgba(19, 25, 32, 0.7) 100%);
+    }
+  </style>
+</head>
+<body class="font-sans bg-[#fbfbf9] text-gray-800 antialiased selection:bg-brand-gold selection:text-white">
+<!-- BEGIN: TopBar -->
+<aside class="bg-brand-navy-dark text-gray-300 text-xs py-2 px-4 border-b border-brand-gold/30" data-purpose="utility-bar">
+<div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+<!-- Address & Service Area -->
+<div class="flex items-center gap-4 flex-wrap justify-center sm:justify-start">
+<a class="hover:text-brand-gold transition-colors flex items-center gap-1.5" href="https://maps.google.com/?q=6936+W+Linebaugh+Ave+%23101,+Tampa,+FL+33625" rel="noopener noreferrer" target="_blank">
+<i class="fa-solid fa-location-dot text-brand-gold"></i>
+<span class="">6936 W Linebaugh Ave #101, Tampa, FL 33625</span>
+</a>
+<span class="hidden md:inline-block text-gray-600">|</span>
+<span class="hidden md:inline-flex items-center gap-1.5 text-amber-200/90 font-medium">
+<i class="fa-solid fa-award text-brand-gold"></i> Proudly Independent Florida Brokerage
+        </span>
+</div>
+<!-- Contact Phone & Hours Quick Access -->
+<div class="flex items-center gap-4">
+<span class="hidden lg:inline text-gray-400">
+<i class="fa-regular fa-clock text-brand-gold mr-1"></i> Mon-Fri: 9am - 5:30pm
+        </span>
+<a class="text-white hover:text-brand-gold transition-colors font-semibold flex items-center gap-1.5 bg-brand-gold/20 px-2.5 py-0.5 rounded border border-brand-gold/40" href="tel:+18137895194">
+<i class="fa-solid fa-phone text-brand-gold text-xs"></i>
+<span class="">(813) 789-5194</span>
+</a>
+</div>
+</div>
+</aside>
+<!-- END: TopBar -->
+<!-- BEGIN: MainHeader -->
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-md border-b border-gray-100 transition-all duration-300" id="main-navigation">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-20">
+<!-- Brand Logo with Architectural Iconography -->
+<a class="flex items-center gap-3 group text-decoration-none shrink-0" href="#home">
+<div class="w-12 h-12 rounded bg-brand-navy flex items-center justify-center p-1 border border-brand-gold shadow-sm group-hover:border-brand-gold-light transition-all">
+<!-- Architectural Sign Icon Inspired by Signage in Image 32 -->
+<svg class="w-full h-full text-brand-gold fill-none stroke-current" stroke-linecap="round" stroke-linejoin="round" stroke-width="6" viewBox="0 0 100 100">
+<!-- Arch frame outline -->
+<path d="M12 90 L12 40 Q50 10 88 40 L88 90" stroke="currentColor" stroke-width="4"></path>
+<!-- Buildings and rooflines inside -->
+<path d="M22 82 L22 66 L34 66 L34 82"></path>
+<path d="M30 68 L42 54 L54 68"></path>
+<path d="M46 75 L46 32 L58 32 L58 75"></path>
+<path d="M58 58 L72 44 L86 58"></path>
+<path d="M72 56 L72 82"></path>
+<line stroke-width="5" x1="16" x2="84" y1="84" y2="84"></line>
+</svg>
+</div>
+<div class="flex flex-col">
+<span class="font-serif font-bold text-lg sm:text-xl tracking-wider text-brand-navy leading-none group-hover:text-brand-gold-dark transition-colors uppercase">
+              First Florida Realty
+            </span>
+<span class="text-[11px] sm:text-xs font-semibold tracking-widest text-brand-gold uppercase mt-1">
+              Of Tampa Bay
+            </span>
+</div>
+</a>
+<!-- Desktop Navigation Menu Links -->
+<nav class="hidden lg:flex items-center gap-4 text-xs font-semibold tracking-wider text-brand-slate uppercase shrink-0">
+<a class="hover:text-brand-gold transition-colors py-1 px-1 border-b-2 border-transparent hover:border-brand-gold" href="#home">Home</a>
+<a class="hover:text-brand-gold transition-colors py-1 px-1 border-b-2 border-transparent hover:border-brand-gold" href="#buyers">Buyers</a>
+<a class="hover:text-brand-gold transition-colors py-1 px-1 border-b-2 border-transparent hover:border-brand-gold" href="#sellers">Sellers</a>
+<a class="hover:text-brand-gold transition-colors py-1 px-1 border-b-2 border-transparent hover:border-brand-gold" href="#featured-properties">Featured Properties</a>
+<a class="hover:text-brand-gold transition-colors py-1 px-1 border-b-2 border-transparent hover:border-brand-gold" href="#communities">Communities</a>
+<a class="hover:text-brand-gold transition-colors py-1 px-1 border-b-2 border-transparent hover:border-brand-gold" href="#about">About</a>
+<a class="hover:text-brand-gold transition-colors py-1 px-1 border-b-2 border-transparent hover:border-brand-gold" href="#contact">Contact</a>
+</nav>
+<!-- CTA Action Buttons -->
+<div class="hidden sm:flex items-center gap-3">
+<a class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded text-xs font-semibold uppercase tracking-wider text-white bg-brand-gold hover:bg-brand-gold-dark shadow-sm hover:shadow transition-all shrink-0" href="#property-search">
+<i class="fa-solid fa-magnifying-glass text-[11px]"></i>
+Search Real Estate
+</a>
+</div>
+<!-- Mobile Menu Toggle Button -->
+<div class="flex lg:hidden">
+<button aria-label="Toggle navigation menu" class="text-brand-navy p-2 rounded-md hover:bg-gray-100 focus:outline-none" id="mobile-menu-btn" type="button">
+<i class="fa-solid fa-bars text-xl" id="menu-icon-bars"></i>
+</button>
+</div>
+</div>
+</div>
+<!-- Mobile Dropdown Menu -->
+<div class="hidden lg:hidden bg-white border-t border-gray-100 px-4 pt-3 pb-6 space-y-2 text-sm font-medium shadow-xl" id="mobile-menu">
+<a class="mobile-nav-link block px-3 py-2 rounded text-brand-slate hover:bg-brand-sand hover:text-brand-navy" href="#home">Home</a>
+<a class="mobile-nav-link block px-3 py-2 rounded text-brand-slate hover:bg-brand-sand hover:text-brand-navy" href="#buyers">Buyers</a>
+<a class="mobile-nav-link block px-3 py-2 rounded text-brand-slate hover:bg-brand-sand hover:text-brand-navy" href="#sellers">Sellers</a>
+<a class="mobile-nav-link block px-3 py-2 rounded text-brand-slate hover:bg-brand-sand hover:text-brand-navy" href="#featured-properties">Featured Properties</a>
+<a class="mobile-nav-link block px-3 py-2 rounded text-brand-slate hover:bg-brand-sand hover:text-brand-navy" href="#communities">Communities</a>
+<a class="mobile-nav-link block px-3 py-2 rounded text-brand-slate hover:bg-brand-sand hover:text-brand-navy" href="#about">About Us</a>
+<a class="mobile-nav-link block px-3 py-2 rounded text-brand-slate hover:bg-brand-sand hover:text-brand-navy" href="#contact">Contact &amp; Hours</a>
+<div class="pt-3 border-t border-gray-100">
+<a class="w-full text-center block bg-brand-navy text-white px-4 py-2.5 rounded font-semibold text-xs tracking-wider uppercase" href="tel:+18137895194">
+<i class="fa-solid fa-phone mr-2 text-brand-gold"></i> Call (813) 789-5194
+        </a>
+</div>
+</div>
+</header>
+<!-- END: MainHeader -->
+<main>
+<!-- BEGIN: HeroSection -->
+<section class="relative min-h-[580px] lg:min-h-[640px] flex items-center justify-center bg-brand-navy text-white overflow-hidden" id="home">
+<!-- Background Luxury Estate Visual -->
+<div class="absolute inset-0 z-0">
+<!-- Re-using screenshot visual from reference -->
+<img alt="Florida Luxury Estate with Palms and Circular Driveway" class="w-full h-full object-cover object-top opacity-55 scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDIT7-5YXBpmYiwWJ9KOXKQ8Uuz00BO7md1tveekLpGV-tIHGZwCKtWSyoj-3N_ebI6xEu-1mcY1D-FT4E9vDWN8_yNTzHxaXlVuSM3Vxxu2cVQUCD63TuzhFwP0rCxprjlotYd2NQNMfnL4Eo_I5DsnSgeV_toL3Q6VsKsbjsCNU1u5HfP_Y8JZ1uh9yNuFQG6X_hRfQnQg7sp_1EWO3y2SAch1mLwh8YyheDNJjiM">
+<div class="absolute inset-0 hero-overlay"></div>
+</div>
+<!-- Hero Content -->
+<div class="relative z-10 max-w-5xl mx-auto px-4 py-16 text-center">
+<!-- Top decorative badge -->
+<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-black/40 backdrop-blur-md border border-brand-gold/40 text-brand-gold text-xs tracking-widest uppercase mb-6">
+<i class="fa-solid fa-sun text-brand-gold"></i> Greater Tampa Bay &amp; Central Florida
+        </div>
+<!-- Authentic Headline matching image reference -->
+<h1 class="font-serif text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-6 drop-shadow-md">
+          Florida Real Estate for Sale
+        </h1>
+<p class="max-w-2xl mx-auto text-base sm:text-lg text-gray-200 font-light mb-10 drop-shadow">
+          Your premier destination for Tampa, St. Petersburg, Sarasota, Orlando, and Central Florida properties. Experience dedicated independent brokerage service.
+        </p>
+<!-- Search Bar Widget Container -->
+<div class="bg-white/95 backdrop-blur-md p-4 sm:p-6 rounded-xl shadow-2xl border border-white/20 text-gray-800 max-w-4xl mx-auto text-left" id="property-search">
+<form onsubmit="event.preventDefault(); alert('Searching all Florida active listings for: ' + (document.getElementById('search-location').value || 'All Florida Areas'));">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 mb-4">
+<!-- Location / City -->
+<div>
+<label class="block text-xs font-semibold uppercase tracking-wider text-gray-600 mb-1" for="search-location">Location / City</label>
+<div class="relative">
+<span class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-brand-gold">
+<i class="fa-solid fa-location-crosshairs text-xs"></i>
+</span>
+<input class="w-full pl-9 pr-3 py-2 text-sm border border-gray-300 rounded focus:ring-1 focus:ring-brand-gold focus:border-brand-gold text-gray-800" id="search-location" placeholder="e.g. Tampa, Sarasota, Ocala" type="text">
+</div>
+</div>
+<!-- Property Type -->
+<div>
+<label class="block text-xs font-semibold uppercase tracking-wider text-gray-600 mb-1" for="search-type">Property Type</label>
+<select class="w-full py-2 px-3 text-sm border border-gray-300 rounded focus:ring-1 focus:ring-brand-gold focus:border-brand-gold text-gray-700 bg-white" id="search-type">
+<option value="single-family">Single Family Home</option>
+<option value="condo">Condo / Townhome</option>
+<option value="waterfront">Luxury Waterfront</option>
+<option value="investment">Multi-Family / Investment</option>
+<option value="land">Vacant Land</option>
+</select>
+</div>
+<!-- Bedrooms / Baths -->
+<div>
+<label class="block text-xs font-semibold uppercase tracking-wider text-gray-600 mb-1" for="search-beds">Bedrooms</label>
+<select class="w-full py-2 px-3 text-sm border border-gray-300 rounded focus:ring-1 focus:ring-brand-gold focus:border-brand-gold text-gray-700 bg-white" id="search-beds">
+<option value="any">Any Bedrooms</option>
+<option value="2">2+ Bedrooms</option>
+<option selected="" value="3">3+ Bedrooms</option>
+<option value="4">4+ Bedrooms</option>
+<option value="5">5+ Bedrooms</option>
+</select>
+</div>
+<!-- Price Range -->
+<div>
+<label class="block text-xs font-semibold uppercase tracking-wider text-gray-600 mb-1" for="search-price">Max Price</label>
+<select class="w-full py-2 px-3 text-sm border border-gray-300 rounded focus:ring-1 focus:ring-brand-gold focus:border-brand-gold text-gray-700 bg-white" id="search-price">
+<option value="no-max">No Max</option>
+<option value="400000">$400,000</option>
+<option value="600000">$600,000</option>
+<option selected="" value="800000">$800,000</option>
+<option value="1200000">$1,200,000</option>
+<option value="2000000">$2,000,000+</option>
+</select>
+</div>
+</div>
+<!-- Search Action CTA matching authentic button text -->
+<div class="flex flex-col sm:flex-row items-center justify-between pt-2 border-t border-gray-200 gap-3">
+<span class="text-xs text-gray-500 flex items-center gap-1.5">
+<i class="fa-solid fa-bolt text-brand-gold"></i> Instant MLS direct search feed updated every 15 minutes.
+              </span>
+<button class="w-full sm:w-auto px-8 py-3 bg-brand-gold hover:bg-brand-gold-dark text-white font-semibold text-xs uppercase tracking-widest rounded shadow hover:shadow-lg transition-all flex items-center justify-center gap-2" type="submit">
+<i class="fa-solid fa-magnifying-glass"></i>
+                SEARCH FOR REAL ESTATE
+              </button>
+</div>
+</form>
+</div>
+</div>
+</section>
+<!-- END: HeroSection -->
+<!-- BEGIN: PillarsSection -->
+<section class="py-16 sm:py-24 bg-white border-b border-gray-200" data-purpose="three-service-pillars" id="buyers">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+<!-- Section Header Matching Reference -->
+<h2 class="font-serif text-2xl sm:text-4xl font-normal text-brand-navy mb-4 tracking-tight">
+          Buying or selling, I am here to help you
+        </h2>
+<div class="w-20 h-1 bg-brand-gold mx-auto mb-16 rounded-full"></div>
+<!-- 3 Feature Pillars with Authentic Text -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
+<!-- Pillar 1: Buyers -->
+<div class="flex flex-col items-center text-center p-6 rounded-xl hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-100 bg-stone-50/50">
+<!-- Round Gold Icon Wrapper matching reference -->
+<div class="w-20 h-20 rounded-full bg-brand-gold/15 flex items-center justify-center mb-6 text-brand-gold shadow-sm border border-brand-gold/20">
+<i class="fa-solid fa-house-chimney text-3xl"></i>
+</div>
+<h3 class="font-serif text-xl font-bold text-brand-navy mb-4">Buyers</h3>
+<p class="text-gray-600 text-sm leading-relaxed mb-6 font-normal">
+              Make the search process easier. Use my advanced search tool to narrow down your search. You can also save your searches and save your favorite homes.
+            </p>
+<a class="mt-auto inline-flex items-center gap-1.5 text-xs font-semibold tracking-wider uppercase text-brand-gold hover:text-brand-gold-dark" href="#property-search">
+              Explore Homes <i class="fa-solid fa-arrow-right text-[10px]"></i>
+</a>
+</div>
+<!-- Pillar 2: Sellers -->
+<div class="flex flex-col items-center text-center p-6 rounded-xl hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-100 bg-stone-50/50" id="sellers">
+<!-- Round Gold Icon Wrapper matching reference -->
+<div class="w-20 h-20 rounded-full bg-brand-gold/15 flex items-center justify-center mb-6 text-brand-gold shadow-sm border border-brand-gold/20">
+<i class="fa-solid fa-file-invoice-dollar text-3xl"></i>
+</div>
+<h3 class="font-serif text-xl font-bold text-brand-navy mb-4">Sellers</h3>
+<p class="text-gray-600 text-sm leading-relaxed mb-6 font-normal">
+              Use my home valuation tool to request an estimate of your home's value. You will even be notified via email when a new listing comes up in your neighborhood.
+            </p>
+<a class="mt-auto inline-flex items-center gap-1.5 text-xs font-semibold tracking-wider uppercase text-brand-gold hover:text-brand-gold-dark" href="#contact">
+              Request Valuation <i class="fa-solid fa-arrow-right text-[10px]"></i>
+</a>
+</div>
+<!-- Pillar 3: Go Mobile -->
+<div class="flex flex-col items-center text-center p-6 rounded-xl hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-100 bg-stone-50/50">
+<!-- Round Gold Icon Wrapper matching reference -->
+<div class="w-20 h-20 rounded-full bg-brand-gold/15 flex items-center justify-center mb-6 text-brand-gold shadow-sm border border-brand-gold/20">
+<i class="fa-solid fa-mobile-screen-button text-3xl"></i>
+</div>
+<h3 class="font-serif text-xl font-bold text-brand-navy mb-4">Go Mobile</h3>
+<p class="text-gray-600 text-sm leading-relaxed mb-6 font-normal">
+              You don't have to be stuck at your desk to search for homes, take my site on the go! You can even search for homes that are near you!
+            </p>
+<a class="mt-auto inline-flex items-center gap-1.5 text-xs font-semibold tracking-wider uppercase text-brand-gold hover:text-brand-gold-dark" href="#contact">
+              Save To Phone <i class="fa-solid fa-arrow-right text-[10px]"></i>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- END: PillarsSection -->
+<!-- BEGIN: FeaturedPropertiesSection -->
+<section class="py-20 bg-[#f7f6f2] border-b border-gray-200" id="featured-properties">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-3xl mx-auto mb-14">
+<span class="text-brand-gold font-semibold text-xs uppercase tracking-widest">Handpicked Selections</span>
+<h2 class="font-serif text-3xl sm:text-4xl font-normal text-brand-navy mt-1 mb-3">
+            Featured Properties
+          </h2>
+<div class="w-16 h-1 bg-brand-gold mx-auto mb-4 rounded-full"></div>
+<p class="text-gray-600 text-sm">
+            Explore premier properties throughout Tampa Bay, Carrollwood, Westchase, St. Petersburg, and surrounding Florida Gulf communities.
+          </p>
+</div>
+<!-- Property Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Property Card 1 -->
+<article class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-200 flex flex-col group">
+<div class="relative h-64 overflow-hidden bg-gray-200">
+<img alt="Tampa Bay Luxury Villa" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_Yjk8tFqiZBwkHTEtefVL7Pni73jZ94WzodFe4cL2RpnjDUwkJA30DVTIbJe_F6cSEs53v-q5RkLvdL1tdS8g6w7SBZUEc7vpIh_hCwZyu_DLqbSg1qoFV89aq18TtEm92wG5hMgb1XJB53G3rHKLtTp5dhDR-4vTwllpLqwGVkiGRpyVuq_rbqramtgo8-Z82eW8pqOiUa1xqYBqtZyYzHIgZYLUIfzw7cGDGxF5">
+<span class="absolute top-4 left-4 bg-brand-navy text-white text-[11px] font-semibold uppercase tracking-wider px-3 py-1 rounded shadow">
+                Just Listed
+              </span>
+<span class="absolute bottom-4 right-4 bg-black/70 backdrop-blur-sm text-brand-gold text-xs font-medium px-2.5 py-1 rounded">
+<i class="fa-solid fa-camera mr-1"></i> 34 Photos
+              </span>
+</div>
+<div class="p-6 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline mb-2">
+<span class="text-2xl font-serif font-bold text-brand-navy">$875,000</span>
+<span class="text-xs text-gray-500 uppercase tracking-wider">Single Family</span>
+</div>
+<h3 class="font-semibold text-gray-800 text-base mb-1">Carrollwood Palms Executive Home</h3>
+<p class="text-gray-500 text-xs mb-4 flex items-center gap-1">
+<i class="fa-solid fa-location-dot text-brand-gold"></i> 14218 Lake Magdalene Blvd, Tampa, FL 33618
+                </p>
+<div class="grid grid-cols-3 gap-2 py-3 border-y border-gray-100 text-center text-xs text-gray-600">
+<div class=""><span class="font-bold text-gray-900 block text-sm">4</span> Beds</div>
+<div class=""><span class="font-bold text-gray-900 block text-sm">3.5</span> Baths</div>
+<div class=""><span class="font-bold text-gray-900 block text-sm">3,420</span> Sq Ft</div>
+</div>
+</div>
+<div class="mt-6 flex items-center justify-between pt-2">
+<span class="text-xs font-medium text-emerald-600 flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span> Active MLS
+                </span>
+<a class="text-xs font-semibold uppercase tracking-wider text-brand-gold hover:text-brand-gold-dark flex items-center gap-1" href="#contact">
+                  Schedule Tour <i class="fa-solid fa-chevron-right text-[10px]"></i>
+</a>
+</div>
+</div>
+</article>
+<!-- Property Card 2 -->
+<article class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-200 flex flex-col group">
+<div class="relative h-64 overflow-hidden bg-gray-200">
+<img alt="Westchase Luxury Residence" class="w-full h-full object-cover object-bottom group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdoQyLgL883ya3G_2Xi3F-aBKXfeyrCgALKbV0O9Aknx10zjeAHSpcf1qH2bkGv_opWzDADjXQrd07L3SkE0QMwSI_Yu916tv9OBdHbgilUliHulOhUBe8pY6ondbrndIktK9YI3h3fRDTxXZ8B-XJlwrUBEGQZLmWJMG0G970igDYTK6Ddwb5fRSxgV37ML-mckUhW2XqdsdZmOuDcihMWVCftps1vliKPFpsVvA6">
+<span class="absolute top-4 left-4 bg-brand-gold text-white text-[11px] font-semibold uppercase tracking-wider px-3 py-1 rounded shadow">
+                Featured
+              </span>
+<span class="absolute bottom-4 right-4 bg-black/70 backdrop-blur-sm text-brand-gold text-xs font-medium px-2.5 py-1 rounded">
+<i class="fa-solid fa-video mr-1"></i> Virtual Tour
+              </span>
+</div>
+<div class="p-6 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline mb-2">
+<span class="text-2xl font-serif font-bold text-brand-navy">$1,245,000</span>
+<span class="text-xs text-gray-500 uppercase tracking-wider">Pool Home</span>
+</div>
+<h3 class="font-semibold text-gray-800 text-base mb-1">Westchase Reserve Lakefront Estate</h3>
+<p class="text-gray-500 text-xs mb-4 flex items-center gap-1">
+<i class="fa-solid fa-location-dot text-brand-gold"></i> 10214 Harbor Way, Tampa, FL 33626
+                </p>
+<div class="grid grid-cols-3 gap-2 py-3 border-y border-gray-100 text-center text-xs text-gray-600">
+<div class=""><span class="font-bold text-gray-900 block text-sm">5</span> Beds</div>
+<div class=""><span class="font-bold text-gray-900 block text-sm">4.0</span> Baths</div>
+<div class=""><span class="font-bold text-gray-900 block text-sm">4,150</span> Sq Ft</div>
+</div>
+</div>
+<div class="mt-6 flex items-center justify-between pt-2">
+<span class="text-xs font-medium text-emerald-600 flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span> Active MLS
+                </span>
+<a class="text-xs font-semibold uppercase tracking-wider text-brand-gold hover:text-brand-gold-dark flex items-center gap-1" href="#contact">
+                  Schedule Tour <i class="fa-solid fa-chevron-right text-[10px]"></i>
+</a>
+</div>
+</div>
+</article>
+<!-- Property Card 3 -->
+<article class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-200 flex flex-col group">
+<div class="relative h-64 overflow-hidden bg-gray-200">
+<img alt="St Petersburg Coastal Home" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAz71khpWe3vcI-OC7QTHajESDG9iJK7oPIKwWKpZvEIYsUi1OwoUon0yvfcS7q8vWWPW52BMh4q8VbBS9cpcFaVE5mA8efw0LT-xYR8s-zd_fD5p2LFx0VmaXOTfAW4swAUDZZKYs0kHXhrmW6ym8y2bW2goZkYWPJd-hRmjy9OyLNQcmPaNCmOD59TmiEpGP_WcaybHxFHMeUvqtty5Sp-Kxh1ByOcBlYIG8bcTYY">
+<span class="absolute top-4 left-4 bg-brand-slate text-white text-[11px] font-semibold uppercase tracking-wider px-3 py-1 rounded shadow">
+                Price Improved
+              </span>
+<span class="absolute bottom-4 right-4 bg-black/70 backdrop-blur-sm text-brand-gold text-xs font-medium px-2.5 py-1 rounded">
+<i class="fa-solid fa-camera mr-1"></i> 28 Photos
+              </span>
+</div>
+<div class="p-6 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline mb-2">
+<span class="text-2xl font-serif font-bold text-brand-navy">$699,000</span>
+<span class="text-xs text-gray-500 uppercase tracking-wider">Contemporary</span>
+</div>
+<h3 class="font-semibold text-gray-800 text-base mb-1">Snell Isle Modern Residence</h3>
+<p class="text-gray-500 text-xs mb-4 flex items-center gap-1">
+<i class="fa-solid fa-location-dot text-brand-gold"></i> 842 Brightwaters Blvd NE, St. Petersburg, FL 33704
+                </p>
+<div class="grid grid-cols-3 gap-2 py-3 border-y border-gray-100 text-center text-xs text-gray-600">
+<div class=""><span class="font-bold text-gray-900 block text-sm">3</span> Beds</div>
+<div class=""><span class="font-bold text-gray-900 block text-sm">2.5</span> Baths</div>
+<div class=""><span class="font-bold text-gray-900 block text-sm">2,560</span> Sq Ft</div>
+</div>
+</div>
+<div class="mt-6 flex items-center justify-between pt-2">
+<span class="text-xs font-medium text-emerald-600 flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span> Active MLS
+                </span>
+<a class="text-xs font-semibold uppercase tracking-wider text-brand-gold hover:text-brand-gold-dark flex items-center gap-1" href="#contact">
+                  Schedule Tour <i class="fa-solid fa-chevron-right text-[10px]"></i>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="mt-12 text-center">
+<a class="inline-flex items-center gap-2 px-8 py-3.5 bg-brand-navy hover:bg-brand-slate text-white text-xs font-semibold uppercase tracking-widest rounded shadow hover:shadow-md transition-all" href="#property-search">
+<i class="fa-solid fa-magnifying-glass text-brand-gold"></i> View All Central Florida MLS Listings
+          </a>
+</div>
+</div>
+</section>
+<!-- END: FeaturedPropertiesSection -->
+<!-- BEGIN: CommunitiesSection -->
+<section class="py-20 bg-white" data-purpose="featured-communities-grid" id="communities">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-14">
+<h2 class="font-serif text-3xl sm:text-4xl font-normal text-brand-navy mb-4">
+            Featured Communities
+          </h2>
+<div class="w-16 h-1 bg-brand-gold mx-auto mb-4 rounded-full"></div>
+<p class="text-gray-500 text-sm max-w-xl mx-auto">
+            Explore live market inventory across Central Florida's most desirable cities and neighborhoods.
+          </p>
+</div>
+<!-- Pill Badges Matching Authentic Visual from Screenshot https://lh3.googleusercontent.com/aida-public/AB6AXuBBWO5OtQEzaa-CdMTnRozZ__vFq0mPtEVYxYcrcZN98eoPlvdQhAoOKEjRj5D80-Kobxd2jHlEDSb1PqBpUujiFsfG9gpeH1QKMIl-iGKULL0QubwAVD5RQILf-OTiNc0RTfeNBaewuMjeQxhzAt3-3XvUUhT8EpmWgbRN4DpP4XUPEXXhbtVvM5dcUFEdEBdo2vFi7iQohrkQG_ZBvD6R76T2nhnkgsvSulFEs5yrv0ZezVUx7eos5Q -->
+<div class="max-w-5xl mx-auto">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+<!-- Community 1: Orlando -->
+<a class="flex items-center bg-[#f0f0ee] hover:bg-[#e7e7e2] transition-colors rounded-full p-1.5 shadow-sm group" href="#property-search">
+<div class="w-14 h-14 rounded-full bg-[#d69f44] text-white flex flex-col items-center justify-center text-center leading-none p-1 shadow-inner shrink-0 group-hover:scale-105 transition-transform">
+<span class="text-xs font-bold">3648</span>
+<span class="text-[9px] tracking-tight opacity-90 uppercase">Listings</span>
+</div>
+<span class="font-sans font-medium text-gray-700 text-base px-4 group-hover:text-brand-navy transition-colors">
+                Orlando
+              </span>
+</a>
+<!-- Community 2: Tampa -->
+<a class="flex items-center bg-[#f0f0ee] hover:bg-[#e7e7e2] transition-colors rounded-full p-1.5 shadow-sm group" href="#property-search">
+<div class="w-14 h-14 rounded-full bg-[#d69f44] text-white flex flex-col items-center justify-center text-center leading-none p-1 shadow-inner shrink-0 group-hover:scale-105 transition-transform">
+<span class="text-xs font-bold">3120</span>
+<span class="text-[9px] tracking-tight opacity-90 uppercase">Listings</span>
+</div>
+<span class="font-sans font-medium text-gray-700 text-base px-4 group-hover:text-brand-navy transition-colors">
+                Tampa
+              </span>
+</a>
+<!-- Community 3: Ocala -->
+<a class="flex items-center bg-[#f0f0ee] hover:bg-[#e7e7e2] transition-colors rounded-full p-1.5 shadow-sm group" href="#property-search">
+<div class="w-14 h-14 rounded-full bg-[#d69f44] text-white flex flex-col items-center justify-center text-center leading-none p-1 shadow-inner shrink-0 group-hover:scale-105 transition-transform">
+<span class="text-xs font-bold">2578</span>
+<span class="text-[9px] tracking-tight opacity-90 uppercase">Listings</span>
+</div>
+<span class="font-sans font-medium text-gray-700 text-base px-4 group-hover:text-brand-navy transition-colors">
+                Ocala
+              </span>
+</a>
+<!-- Community 4: Kissimmee -->
+<a class="flex items-center bg-[#f0f0ee] hover:bg-[#e7e7e2] transition-colors rounded-full p-1.5 shadow-sm group" href="#property-search">
+<div class="w-14 h-14 rounded-full bg-[#d69f44] text-white flex flex-col items-center justify-center text-center leading-none p-1 shadow-inner shrink-0 group-hover:scale-105 transition-transform">
+<span class="text-xs font-bold">2870</span>
+<span class="text-[9px] tracking-tight opacity-90 uppercase">Listings</span>
+</div>
+<span class="font-sans font-medium text-gray-700 text-base px-4 group-hover:text-brand-navy transition-colors">
+                Kissimmee
+              </span>
+</a>
+<!-- Community 5: Sarasota -->
+<a class="flex items-center bg-[#f0f0ee] hover:bg-[#e7e7e2] transition-colors rounded-full p-1.5 shadow-sm group" href="#property-search">
+<div class="w-14 h-14 rounded-full bg-[#d69f44] text-white flex flex-col items-center justify-center text-center leading-none p-1 shadow-inner shrink-0 group-hover:scale-105 transition-transform">
+<span class="text-xs font-bold">2329</span>
+<span class="text-[9px] tracking-tight opacity-90 uppercase">Listings</span>
+</div>
+<span class="font-sans font-medium text-gray-700 text-base px-4 group-hover:text-brand-navy transition-colors">
+                Sarasota
+              </span>
+</a>
+<!-- Community 6: Bradenton -->
+<a class="flex items-center bg-[#f0f0ee] hover:bg-[#e7e7e2] transition-colors rounded-full p-1.5 shadow-sm group" href="#property-search">
+<div class="w-14 h-14 rounded-full bg-[#d69f44] text-white flex flex-col items-center justify-center text-center leading-none p-1 shadow-inner shrink-0 group-hover:scale-105 transition-transform">
+<span class="text-xs font-bold">1635</span>
+<span class="text-[9px] tracking-tight opacity-90 uppercase">Listings</span>
+</div>
+<span class="font-sans font-medium text-gray-700 text-base px-4 group-hover:text-brand-navy transition-colors">
+                Bradenton
+              </span>
+</a>
+<!-- Community 7: St Petersburg -->
+<a class="flex items-center bg-[#f0f0ee] hover:bg-[#e7e7e2] transition-colors rounded-full p-1.5 shadow-sm group" href="#property-search">
+<div class="w-14 h-14 rounded-full bg-[#d69f44] text-white flex flex-col items-center justify-center text-center leading-none p-1 shadow-inner shrink-0 group-hover:scale-105 transition-transform">
+<span class="text-xs font-bold">1959</span>
+<span class="text-[9px] tracking-tight opacity-90 uppercase">Listings</span>
+</div>
+<span class="font-sans font-medium text-gray-700 text-base px-4 group-hover:text-brand-navy transition-colors">
+                St Petersburg
+              </span>
+</a>
+<!-- Community 8: Davenport -->
+<a class="flex items-center bg-[#f0f0ee] hover:bg-[#e7e7e2] transition-colors rounded-full p-1.5 shadow-sm group" href="#property-search">
+<div class="w-14 h-14 rounded-full bg-[#d69f44] text-white flex flex-col items-center justify-center text-center leading-none p-1 shadow-inner shrink-0 group-hover:scale-105 transition-transform">
+<span class="text-xs font-bold">1675</span>
+<span class="text-[9px] tracking-tight opacity-90 uppercase">Listings</span>
+</div>
+<span class="font-sans font-medium text-gray-700 text-base px-4 group-hover:text-brand-navy transition-colors">
+                Davenport
+              </span>
+</a>
+</div>
+<!-- Bottom Centered 2 Communities to Mirror Reference Layout -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 max-w-xl mx-auto mt-4 sm:mt-6">
+<!-- Community 9: Port Charlotte -->
+<a class="flex items-center bg-[#f0f0ee] hover:bg-[#e7e7e2] transition-colors rounded-full p-1.5 shadow-sm group" href="#property-search">
+<div class="w-14 h-14 rounded-full bg-[#d69f44] text-white flex flex-col items-center justify-center text-center leading-none p-1 shadow-inner shrink-0 group-hover:scale-105 transition-transform">
+<span class="text-xs font-bold">1241</span>
+<span class="text-[9px] tracking-tight opacity-90 uppercase">Listings</span>
+</div>
+<span class="font-sans font-medium text-gray-700 text-base px-4 group-hover:text-brand-navy transition-colors">
+                Port Charlotte
+              </span>
+</a>
+<!-- Community 10: Lakeland -->
+<a class="flex items-center bg-[#f0f0ee] hover:bg-[#e7e7e2] transition-colors rounded-full p-1.5 shadow-sm group" href="#property-search">
+<div class="w-14 h-14 rounded-full bg-[#d69f44] text-white flex flex-col items-center justify-center text-center leading-none p-1 shadow-inner shrink-0 group-hover:scale-105 transition-transform">
+<span class="text-xs font-bold">1101</span>
+<span class="text-[9px] tracking-tight opacity-90 uppercase">Listings</span>
+</div>
+<span class="font-sans font-medium text-gray-700 text-base px-4 group-hover:text-brand-navy transition-colors">
+                Lakeland
+              </span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- END: CommunitiesSection -->
+<!-- BEGIN: WelcomeAboutSection -->
+<section class="py-20 bg-stone-100/70 border-t border-b border-gray-200" data-purpose="welcome-brokerage-info" id="about">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Authentic Text Column matching reference exactly -->
+<div class="lg:col-span-7">
+<!-- Left gold indicator bar like the original layout -->
+<div class="border-l-4 border-brand-gold pl-4 mb-6">
+<h2 class="font-serif text-3xl sm:text-4xl font-normal text-brand-navy">
+                Welcome
+              </h2>
+<span class="text-gray-500 text-base font-light">to First Florida Realty of Tampa Bay</span>
+</div>
+<p class="text-gray-700 leading-relaxed text-sm sm:text-base mb-6">
+              Thank you for taking the time to visit my website. I specialize in assisting buyers and sellers in your area. My website contains ALL listings from ALL Real Estate Agents, there's no need to look anywhere else for your next home.
+            </p>
+<!-- Authentic Bullet List Points -->
+<ul class="space-y-3 mb-8 text-sm sm:text-base text-gray-700 font-normal">
+<li class="flex items-start gap-2.5">
+<i class="fa-solid fa-circle-check text-brand-gold mt-1 text-sm"></i>
+<span class="">All the latest listings available.</span>
+</li>
+<li class="flex items-start gap-2.5">
+<i class="fa-solid fa-circle-check text-brand-gold mt-1 text-sm"></i>
+<span class="">Large Photos, Home Tours &amp; Maps including Google® Street View.</span>
+</li>
+<li class="flex items-start gap-2.5">
+<i class="fa-solid fa-circle-check text-brand-gold mt-1 text-sm"></i>
+<span class="">Notification of New Listings and Price Changes.</span>
+</li>
+<li class="flex items-start gap-2.5">
+<i class="fa-solid fa-circle-check text-brand-gold mt-1 text-sm"></i>
+<span class="">Free to use. I respect your privacy.</span>
+</li>
+<li class="flex items-start gap-2.5">
+<i class="fa-solid fa-circle-check text-brand-gold mt-1 text-sm"></i>
+<span class="">I'm here to help if you need me.</span>
+</li>
+</ul>
+<p class="text-gray-700 leading-relaxed text-sm sm:text-base mb-8 italic">
+              Please feel free to explore the website and if you have any questions, would like to see a home in person or to discuss your home's value, please give me a call today.
+            </p>
+<div class="flex flex-wrap items-center gap-4">
+<a class="px-6 py-3 bg-brand-gold hover:bg-brand-gold-dark text-white rounded text-xs font-semibold uppercase tracking-wider shadow transition-all inline-flex items-center gap-2" href="tel:+18137895194">
+<i class="fa-solid fa-phone"></i> Call (813) 789-5194
+              </a>
+<a class="px-6 py-3 border border-brand-navy text-brand-navy hover:bg-brand-navy hover:text-white rounded text-xs font-semibold uppercase tracking-wider transition-all inline-flex items-center gap-2" href="#contact">
+<i class="fa-regular fa-envelope"></i> Send Direct Message
+              </a>
+</div>
+</div>
+<!-- Official Signage & Entrance Showcase Assets Column -->
+<div class="lg:col-span-5 space-y-6">
+<!-- Real Office Entrance Photo https://lh3.googleusercontent.com/aida-public/AB6AXuC1OPVU69Lk0uEoGXqRWEmeAqpUm2iZIBOBAQA-rtRXMibBfrwFMg1ZYbDTaEFdqi6lQm_UIMxAEe37KCZhuqsRiLma7U6dJig6vC9i58V342PBpJzj9GICv8ighPPMWrLdDBLwlKbxTCxsijyW93KZaGK9_oEqE_izoR7YGV1yo4tJyi_pYJy4fR1J0XKoqCMcXZOzVq2AKea1TldZnOtmj9Ex788n1yAj8SgS4VQSDMqQm1ejnrEuYA -->
+<div class="relative rounded-2xl overflow-hidden shadow-xl border-4 border-white">
+<img alt="First Florida Realty of Tampa Bay Office Entrance &amp; Architecture" class="w-full h-80 object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAA6_S1VR35NY0utvlBjrIZwNvuy91eB2F89Shldt-K_202NMpzsRDli0mhlPIY1aolX-p6VT9ysKLygLp8curZKJeBpdSKKDTvzdHDG-VXKqVI-oFTtU2Amr80XyYLzHjAyjTfj2TG8rpjhzCezEtvFgphhMw_yIziDXzi9ZyMwa-g2rzJhZ25cYsP_VoDhdqxYmL3nPLYBhRf1oLb0BMztrNp7gXq1bxjMKuHLAeH">
+<div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-brand-navy/90 via-brand-navy/60 to-transparent p-4 text-white">
+<p class="font-serif text-sm font-semibold tracking-wide">Tampa Bay Office Headquarters</p>
+<p class="text-xs text-gray-300">6936 W Linebaugh Ave #101, Tampa, FL</p>
+</div>
+</div>
+<!-- Official Architectural Plaque Sign https://lh3.googleusercontent.com/aida-public/AB6AXuBwXEAH4YYxuTwwCoNvDQczaCJlSU3V1jZ7o1xeYswTSPXD9xaEJDIPwfDCU3ZUM7Q3hhC4h-jKZ2WD6-mdHan_T0Aj2gXPKSyE3JND60UHLwiamFZvWDlrMoeT685TyLidhIPqzPhYSzbJiRxMd9C4R5MKY3J0L5KeuA4XgEu68pcJOwvy40-HFxMz4zznsQMfWqgun26xPmpX0mXuplxN9dnP_ELv5jpUIDhuboRYLFj9hrYRP5KnOA -->
+<div class="rounded-xl overflow-hidden shadow-md border-2 border-brand-gold/40 bg-brand-navy p-3 flex items-center gap-4">
+<div class="w-24 h-24 rounded-lg overflow-hidden shrink-0 border border-brand-gold/60">
+<img alt="Official Cast Sign Plaque - First Florida Realty of Tampa Bay" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8XNg9GHxZO9tUcBGDdr5MuBgx-ObMijpnM2-uhjEN7hXvFGSZyHCIBnDrtI254wWckHKyuX9HAG2yzlVzI1DTwhjOQsbNo7LZ4-qvyz5MaKc06Zr0I_SEOmjnJ9iCYwU9IArauOdG658dB2_EEcabh5rBCe1r47XSvPFfPJsgXb6t-qP_DQKWK-Q0VgyeVLS278dfSy2aeLPLwL75WcAP2Z0y7_Zs4c73ycORrKxT">
+</div>
+<div class="text-white">
+<span class="text-brand-gold font-bold text-xs uppercase tracking-wider block">Licensed Florida Broker</span>
+<h4 class="font-serif text-sm font-bold text-gray-100">First Florida Realty of Tampa Bay</h4>
+<p class="text-xs text-gray-300 mt-1 leading-snug">Personalized high-touch representation throughout Hillsborough, Pinellas &amp; Central FL.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: WelcomeAboutSection -->
+<!-- BEGIN: ContactAndHoursSection -->
+<section class="py-20 bg-white" data-purpose="contact-hours-location" id="contact">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-2xl mx-auto mb-14">
+<span class="text-brand-gold font-semibold text-xs uppercase tracking-widest">Connect With Us</span>
+<h2 class="font-serif text-3xl sm:text-4xl font-normal text-brand-navy mt-1 mb-3">
+            Hours, Location &amp; Contact
+          </h2>
+<div class="w-16 h-1 bg-brand-gold mx-auto rounded-full"></div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+<!-- Office Location Details & Verified Business Hours -->
+<div class="lg:col-span-5 bg-brand-cream rounded-xl p-8 border border-stone-200">
+<h3 class="font-serif text-xl font-bold text-brand-navy mb-6 flex items-center gap-2">
+<i class="fa-solid fa-building text-brand-gold"></i> Office Information
+            </h3>
+<!-- Address -->
+<div class="mb-6">
+<h4 class="text-xs font-bold uppercase tracking-wider text-gray-500 mb-1">Office Address</h4>
+<p class="text-sm font-medium text-gray-800">
+                6936 W Linebaugh Ave #101<br>
+                Tampa, FL 33625, United States
+              </p>
+<p class="text-xs text-brand-gold font-medium mt-1">
+                Plus Code: 2CQV+V6 Tampa, Florida, USA
+              </p>
+</div>
+<!-- Direct Phone -->
+<div class="mb-6">
+<h4 class="text-xs font-bold uppercase tracking-wider text-gray-500 mb-1">Direct Telephone</h4>
+<a class="text-base font-bold text-brand-navy hover:text-brand-gold transition-colors flex items-center gap-2" href="tel:+18137895194">
+<i class="fa-solid fa-phone text-brand-gold text-sm"></i> +1 (813) 789-5194
+              </a>
+</div>
+<!-- Verified Business Operating Hours -->
+<div class="mb-8">
+<h4 class="text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Hours of Operation</h4>
+<div class="bg-white rounded-lg p-3 border border-stone-200 text-xs space-y-2">
+<div class="flex justify-between items-center text-gray-700">
+<span class="font-medium">Monday – Friday</span>
+<span class="font-bold text-brand-navy">9:00 AM – 5:30 PM</span>
+</div>
+<div class="flex justify-between items-center text-gray-700">
+<span class="font-medium">Saturday</span>
+<span class="font-bold text-brand-navy">9:00 AM – 5:00 PM</span>
+</div>
+<div class="flex justify-between items-center text-gray-500">
+<span class="">Sunday</span>
+<span class="text-rose-600 font-semibold uppercase text-[11px]">Closed</span>
+</div>
+</div>
+</div>
+<!-- Certified Badges -->
+<div class="pt-4 border-t border-stone-200 grid grid-cols-2 gap-3 text-center">
+<div class="bg-white p-3 rounded border border-stone-200">
+<i class="fa-solid fa-venus text-brand-gold text-lg mb-1"></i>
+<span class="block text-[11px] font-semibold text-gray-700">Women-Owned</span>
+<span class="text-[9px] text-gray-500">Certified Enterprise</span>
+</div>
+<div class="bg-white p-3 rounded border border-stone-200">
+<i class="fa-solid fa-house-chimney text-brand-gold text-lg mb-1"></i>
+<span class="block text-[11px] font-semibold text-gray-700">Equal Housing</span>
+<span class="text-[9px] text-gray-500">Opportunity Broker</span>
+</div>
+</div>
+</div>
+<!-- Quick Contact Inquiry Form -->
+<div class="lg:col-span-7 bg-white rounded-xl p-8 border border-gray-200 shadow-sm">
+<h3 class="font-serif text-xl font-bold text-brand-navy mb-2">Send an Inquiry or Schedule a Showing</h3>
+<p class="text-xs text-gray-500 mb-6">Receive personalized MLS searches, neighborhood sold comps, or instant property tours.</p>
+<form onsubmit="event.preventDefault(); alert('Thank you! Your message has been sent to First Florida Realty. We will contact you shortly.');">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+<div>
+<label class="block text-xs font-semibold uppercase tracking-wider text-gray-700 mb-1" for="contact-name">Your Name *</label>
+<input class="w-full text-sm border-gray-300 rounded focus:ring-1 focus:ring-brand-gold focus:border-brand-gold" id="contact-name" placeholder="John Doe" required="" type="text">
+</div>
+<div>
+<label class="block text-xs font-semibold uppercase tracking-wider text-gray-700 mb-1" for="contact-phone">Phone Number *</label>
+<input class="w-full text-sm border-gray-300 rounded focus:ring-1 focus:ring-brand-gold focus:border-brand-gold" id="contact-phone" placeholder="(813) 000-0000" required="" type="tel">
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+<div>
+<label class="block text-xs font-semibold uppercase tracking-wider text-gray-700 mb-1" for="contact-email">Email Address *</label>
+<input class="w-full text-sm border-gray-300 rounded focus:ring-1 focus:ring-brand-gold focus:border-brand-gold" id="contact-email" placeholder="john@example.com" required="" type="email">
+</div>
+<div>
+<label class="block text-xs font-semibold uppercase tracking-wider text-gray-700 mb-1" for="contact-interest">I Am Looking To</label>
+<select class="w-full text-sm border-gray-300 rounded focus:ring-1 focus:ring-brand-gold focus:border-brand-gold bg-white" id="contact-interest">
+<option value="buy">Buy a Home</option>
+<option value="sell">Sell My Current Property</option>
+<option value="valuation">Get Free Home Valuation</option>
+<option value="relocate">Relocate to Tampa Bay Area</option>
+<option value="general">Ask a Question</option>
+</select>
+</div>
+</div>
+<div class="mb-5">
+<label class="block text-xs font-semibold uppercase tracking-wider text-gray-700 mb-1" for="contact-message">How can I help you?</label>
+<textarea class="w-full text-sm border-gray-300 rounded focus:ring-1 focus:ring-brand-gold focus:border-brand-gold" id="contact-message" placeholder="Tell me what you're looking for, preferred neighborhood, price range, or questions about a specific listing..." rows="4"></textarea>
+</div>
+<div class="flex items-center justify-between">
+<span class="text-xs text-gray-500">
+<i class="fa-solid fa-lock text-brand-gold"></i> We respect your privacy. No spam.
+                </span>
+<button class="px-8 py-3 bg-brand-navy hover:bg-brand-gold text-white font-semibold text-xs uppercase tracking-widest rounded shadow transition-all duration-300" type="submit">
+                  Submit Inquiry
+                </button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- END: ContactAndHoursSection -->
+<!-- BEGIN: AdditionalLinksSection -->
+<section class="py-12 bg-stone-100 border-t border-gray-200 text-center" data-purpose="additional-links-reference">
+<div class="max-w-7xl mx-auto px-4">
+<!-- Exact Header from Original Design https://lh3.googleusercontent.com/aida-public/AB6AXuBBWO5OtQEzaa-CdMTnRozZ__vFq0mPtEVYxYcrcZN98eoPlvdQhAoOKEjRj5D80-Kobxd2jHlEDSb1PqBpUujiFsfG9gpeH1QKMIl-iGKULL0QubwAVD5RQILf-OTiNc0RTfeNBaewuMjeQxhzAt3-3XvUUhT8EpmWgbRN4DpP4XUPEXXhbtVvM5dcUFEdEBdo2vFi7iQohrkQG_ZBvD6R76T2nhnkgsvSulFEs5yrv0ZezVUx7eos5Q -->
+<h2 class="font-serif text-2xl sm:text-3xl font-normal text-brand-navy mb-4">
+          Additional Links
+        </h2>
+<div class="flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-xs uppercase tracking-wider text-gray-600 font-semibold">
+<a class="hover:text-brand-gold transition-colors" href="#property-search">Property Search</a>
+<span class="">•</span>
+<a class="hover:text-brand-gold transition-colors" href="#featured-properties">New Listings</a>
+<span class="">•</span>
+<a class="hover:text-brand-gold transition-colors" href="#featured-properties">Price Changes</a>
+<span class="">•</span>
+<a class="hover:text-brand-gold transition-colors" href="#buyers">Your Favorites</a>
+<span class="">•</span>
+<a class="hover:text-brand-gold transition-colors" href="#sellers">Sell Your Home</a>
+<span class="">•</span>
+<a class="hover:text-brand-gold transition-colors" href="#contact">Home Loans</a>
+<span class="">•</span>
+<a class="hover:text-brand-gold transition-colors" href="#contact">Contact Broker</a>
+</div>
+</div>
+</section>
+<!-- END: AdditionalLinksSection -->
+</main>
+<!-- BEGIN: MainFooter -->
+<footer class="bg-[#2d3136] text-gray-300 text-xs pt-16 pb-12 border-t border-brand-gold/30" data-purpose="site-footer">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Top Columns Matching Original Footer from Reference https://lh3.googleusercontent.com/aida-public/AB6AXuBBWO5OtQEzaa-CdMTnRozZ__vFq0mPtEVYxYcrcZN98eoPlvdQhAoOKEjRj5D80-Kobxd2jHlEDSb1PqBpUujiFsfG9gpeH1QKMIl-iGKULL0QubwAVD5RQILf-OTiNc0RTfeNBaewuMjeQxhzAt3-3XvUUhT8EpmWgbRN4DpP4XUPEXXhbtVvM5dcUFEdEBdo2vFi7iQohrkQG_ZBvD6R76T2nhnkgsvSulFEs5yrv0ZezVUx7eos5Q -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8 pb-12 border-b border-gray-600/60">
+<!-- Broker Brand Column -->
+<div class="md:col-span-4">
+<div class="flex items-center gap-3 mb-4">
+<div class="w-10 h-10 rounded bg-brand-navy flex items-center justify-center p-1 border border-brand-gold">
+<svg class="w-full h-full text-brand-gold fill-none stroke-current" stroke-width="6" viewBox="0 0 100 100">
+<path d="M12 90 L12 40 Q50 10 88 40 L88 90" stroke="currentColor" stroke-width="4"></path>
+<path d="M30 68 L42 54 L54 68"></path>
+<path d="M46 75 L46 32 L58 32 L58 75"></path>
+<path d="M58 58 L72 44 L86 58"></path>
+<line stroke-width="5" x1="16" x2="84" y1="84" y2="84"></line>
+</svg>
+</div>
+<div>
+<span class="font-serif font-bold text-white text-base tracking-wider block">FIRST FLORIDA REALTY</span>
+<span class="text-[10px] text-brand-gold uppercase tracking-widest">of Tampa Bay</span>
+</div>
+</div>
+<p class="text-gray-400 text-xs leading-relaxed mb-4">
+            Dedicated independent Florida real estate brokerage providing comprehensive local MLS marketing, valuation, and buyer representation throughout Tampa Bay.
+          </p>
+<p class="text-gray-300 font-medium">
+<i class="fa-solid fa-location-dot text-brand-gold mr-1.5"></i> 6936 W Linebaugh Ave #101, Tampa, FL 33625
+          </p>
+</div>
+<!-- Follow Me Column matching original design -->
+<div class="md:col-span-2 md:border-l border-gray-600/60 md:pl-6">
+<h4 class="text-white font-bold text-xs uppercase tracking-wider mb-4">Follow Me</h4>
+<div class="flex flex-col space-y-2">
+<a class="text-gray-400 hover:text-brand-gold transition-colors flex items-center gap-2" href="#">
+<i class="fa-brands fa-facebook-f text-xs w-4"></i> Facebook
+            </a>
+<a class="text-gray-400 hover:text-brand-gold transition-colors flex items-center gap-2" href="#">
+<i class="fa-brands fa-instagram text-xs w-4"></i> Instagram
+            </a>
+<a class="text-gray-400 hover:text-brand-gold transition-colors flex items-center gap-2" href="#">
+<i class="fa-brands fa-linkedin-in text-xs w-4"></i> LinkedIn
+            </a>
+<a class="text-gray-400 hover:text-brand-gold transition-colors flex items-center gap-2" href="#">
+<i class="fa-brands fa-youtube text-xs w-4"></i> YouTube
+            </a>
+</div>
+</div>
+<!-- Site Map Navigation matching original links -->
+<div class="md:col-span-3 md:border-l border-gray-600/60 md:pl-6">
+<h4 class="text-white font-bold text-xs uppercase tracking-wider mb-4">Site Map</h4>
+<ul class="space-y-1.5 text-xs text-gray-400">
+<li class=""><a class="hover:text-white transition-colors" href="#property-search">Property Search</a></li>
+<li class=""><a class="hover:text-white transition-colors" href="#featured-properties">New Listings</a></li>
+<li class=""><a class="hover:text-white transition-colors" href="#featured-properties">Price Changes</a></li>
+<li class=""><a class="hover:text-white transition-colors" href="#buyers">Your Favorites</a></li>
+<li class=""><a class="hover:text-white transition-colors" href="#sellers">Sell Your Home</a></li>
+<li class=""><a class="hover:text-white transition-colors" href="#contact">Home Loans</a></li>
+<li class=""><a class="hover:text-white transition-colors" href="#contact">Contact</a></li>
+</ul>
+</div>
+<!-- Compliance & Legal Info matching reference -->
+<div class="md:col-span-3 md:border-l border-gray-600/60 md:pl-6">
+<div class="flex items-center gap-2 text-white font-semibold mb-3">
+<i class="fa-solid fa-house-chimney text-brand-gold"></i>
+<span class="">© ProAgentWebsites.com</span>
+</div>
+<ul class="space-y-1.5 text-xs text-gray-400 mb-4">
+<li class=""><a class="hover:text-white transition-colors" href="#">Terms &amp; Conditions</a></li>
+<li class=""><a class="hover:text-white transition-colors" href="#">Privacy Policy</a></li>
+<li class=""><a class="hover:text-white transition-colors" href="#">Fair Housing</a></li>
+<li class=""><a class="hover:text-white transition-colors" href="#">DMCA Notice</a></li>
+<li class=""><a class="hover:text-white transition-colors" href="#">Accessibility</a></li>
+</ul>
+<div class="flex items-center gap-3 pt-2 text-gray-400 text-lg">
+<i class="fa-solid fa-house-flag" title="Equal Housing Opportunity"></i>
+<i class="fa-solid fa-registered" title="REALTOR®"></i>
+</div>
+</div>
+</div>
+<!-- Bottom MLS & Equal Housing Notice -->
+<div class="pt-8 text-center text-gray-400 text-[11px] leading-relaxed max-w-4xl mx-auto">
+<p class="mb-2">
+          © <span id="current-year" class="">2026</span> First Florida Realty of Tampa Bay. All Rights Reserved. Information deemed reliable but not guaranteed. All properties are subject to prior sale, change, or withdrawal. Neither listing broker(s) nor First Florida Realty of Tampa Bay shall be responsible for any typographical errors, misinformation, or misprints.
+        </p>
+<p class="text-gray-500">
+          Equal Housing Opportunity. Certified Independent &amp; Women-Owned Real Estate Brokerage in Florida.
+        </p>
+</div>
+</div>
+</footer>
+<!-- END: MainFooter -->
+<!-- BEGIN: InteractiveScripts -->
+<script data-purpose="navigation-and-scroll">
+    // Auto-update copyright year
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    // Mobile Menu Toggle
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const mobileLinks = document.querySelectorAll('.mobile-nav-link');
+
+    if (mobileMenuBtn && mobileMenu) {
+      mobileMenuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+
+      mobileLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.add('hidden');
+        });
+      });
+    }
+
+    // Smooth Scroll Offset Adjustment for Sticky Header
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const targetId = this.getAttribute('href');
+        if (targetId === '#' || targetId === '') return;
+        
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+          e.preventDefault();
+          const headerOffset = 80;
+          const elementPosition = targetElement.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+  </script>
+<!-- END: InteractiveScripts -->
+
+
+</body></html>
